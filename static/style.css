@@ -1,0 +1,76 @@
+body {
+    background-color: #d4dfd0;
+}
+
+h1, h2, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #2f405b;
+}
+
+h2 {
+    color: #3e5477;
+}
+
+.cell {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+#picture {
+    width: auto;
+}
+
+#upload, #search {
+    background-color: #c6dcff;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#upload:hover, #search:hover {
+    background-color: #95afd8;
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+
+.btn-delete {
+    background-color: #d9534f;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.btn-delete:hover {
+    background-color: #c9302c;
+}
+
+.btn-update {
+    background-color: #30a3d9;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.btn-update:hover {
+    background-color: #1c77d9;
+}
+
+img {
+    border: 4px solid black;
+}
